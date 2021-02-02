@@ -1,0 +1,10 @@
+try:
+ a=int(input("Enter numerator value: "))
+ b=int(input("Enter dinominator: "))
+ print("Result = ",a/b)
+except(ZeroDivisionError, ValueError):
+  print("0")
+else:
+  print("Executed")
+finally:
+  print("Oover")
